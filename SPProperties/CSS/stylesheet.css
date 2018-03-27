@@ -14,7 +14,14 @@ body {
 
 header {
     margin: 0 0 75px 0;
-    background-color:#828E82;         
+    /* background-color:#828E82;  
+    background-image: url('../images/gustavo-belemmi-67044-unsplash.jpg');    
+    background-size: cover;  
+    background-repeat: no-repeat;
+    background-position: center; */
+
+    background: #828E82 url('../images/gustavo-belemmi-67044-unsplash.jpg') 
+                no-repeat center /cover;
 }
 
 
@@ -36,7 +43,7 @@ li {
 /* Class selectors*/
 
 .company-motto {    
-    color :#3A606E;
+    color :rgb(250, 252, 253);
     font-size: 2em;
     text-align: right;
     padding: 20px 100px 0 0;    
