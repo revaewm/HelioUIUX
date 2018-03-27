@@ -1,0 +1,112 @@
+
+/* ID selectors*/
+
+
+
+
+/* Type selectors*/
+
+body {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+header {
+    margin: 0 0 75px 0;
+    background-color:#828E82;         
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3a606e;
+    font-size: 2.5em;
+    text-decoration: underline;
+    line-height: 1.3;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+
+
+/* Class selectors*/
+
+.company-motto {    
+    color :#3A606E;
+    font-size: 2em;
+    text-align: right;
+    padding: 20px 100px 0 0;    
+}
+
+.logo-header {
+    width: 75%;    
+    margin: -80px 0 50px 100px;   
+}
+
+.primary-content {
+    background-color: #a7ad8f;
+    border-top: 10px solid black;
+    padding: 0 10% 5% 10%;
+    width: 60%;
+}
+
+.locations {
+    font-size: 2em;
+    line-height: .5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondary-content {
+    padding-top: 3%;
+    width: 60%;
+    
+}
+
+.allaboutSP {
+    text-align: justify;
+    background-color: #a7ad8f;
+    line-height: 1.8;
+    padding: 30px;
+}
+
+.bottom-border {
+    border-bottom: 4px solid lightgray;
+}
+
+.contact {  
+    text-align: center;
+}
+
+.primary-content,
+.secondary-content,
+.contact {
+    text-align: center;
+    margin: auto;
+}
+
+.social-media {
+    list-style-type: none;
+    text-align: center;
+    border: 3px solid red;
+}
+
+
+
+/* psuedo classes */
+
+a:link {
+     color: rgb(8, 8, 8);   /*This makes links a certain color */
+     text-decoration: none;
+}
+
+a:visited {
+    color: #607b7d; /* This makes links change color once they've been visited */
+}
+
+a:hover {
+    color: #a7ad8f; /* This makes links change color when cursor hovers over it */
+}
